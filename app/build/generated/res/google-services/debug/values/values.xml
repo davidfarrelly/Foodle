@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">664529919903-ka68sg0jeiku3gh11eu984iep9l3edce.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://foodle-974b4.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">664529919903</string>
+    <string name="google_api_key" translatable="false">AIzaSyBo97Oc2wVYYBAa0XAAzSJnLV6kar-BKLM</string>
+    <string name="google_app_id" translatable="false">1:664529919903:android:7852c25d4e963c6b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBo97Oc2wVYYBAa0XAAzSJnLV6kar-BKLM</string>
+    <string name="google_storage_bucket" translatable="false">foodle-974b4.appspot.com</string>
+</resources>

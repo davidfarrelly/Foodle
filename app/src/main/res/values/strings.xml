@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Foodle</string>
+    <string name="title_activity_recipe_book">RecipeBook</string>
+    <string name="title_activity_view_recipe">ViewRecipe</string>
+</resources>

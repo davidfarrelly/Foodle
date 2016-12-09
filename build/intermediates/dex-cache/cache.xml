@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.mindorks\placeholderview\0.5.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4d67e7b00bc38b81058d73eb31d497317fe3887e">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mindorks-placeholderview-0.5.2_ac279be1a98b8dc09423e28a72e16a8978bf8007\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.8.0_712f968b707f804a644d3cac17416cab18510089\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d4eec3577a42e1699b5a349435ad9a7a0f6cc2be">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_40139a520f069efa4e16ec6ac43233d72522d635\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_ae6e9f6c46cca0f031805747d41ad0f855137b0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.8.0_6e014a9a26ea9d3c9eb770e58bac4bfbb1d6d44b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_960397bfde28fa0c98e0e0bee6f7e2191dbf7134\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-1.3.0_f26e0eaa013c47e2b9c01c0f85a80fb5b227fc00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.0\7ff0e000d1e27e356567f56c92af3b8ab912636f\picasso-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.0_7e03143890f205415c3115c2d2924c8ba4246ad8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0506b364d15c4fd456676d9e3fa73c4449b5ce24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.8.0_cb553371438baf593ccb61b58424d7072c0a5c6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_faa92ae0ebc91983dc475746c2530bc58ae64b54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9adb3429f4006495ddf845cb2983f742a2e1ed7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.8.0_02897752f1d0ce8a94b3193a136a6aa660fa0599\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_6fb5d434a2febe3af3163e3382a804784fcc565e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_1a4dc31be140134b14984135871510ef0e4675d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.8.0_b1b848489bd0f686c0100ef24c8d85e7d693c421\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_52a3a635e701ff1d95c19cce9eb0ef65e55b86ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_87fde866d25801a6dd257e004c04c29a21dd8d46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_22f360bd8c3d30612d3da2db2df6da55047ebe64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.8.0_e311d17550dd9b38932093d27a6c5b65ecf23be8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_9467abe411eac1ccb73011351bb8cf162ecc3497\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fd5c973d7d5a28d8418234b16699815c3ff7fd23">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_16a47c378932824d0f7aa5279f8fca24d45f0342\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_c0080e5981382c0424002dbe91a1c09bf7071fc2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.8.0_ba9d353d6f2d197b1219c9f81a35f720973604ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.8.0_3bb3bfe4982470fad703b47d2be0f8fd75964d21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.1_61c5e27c10484a4027b423f2673b855cab409338\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.8.0_09df581ac02d3b1f87ac0214f4385ad7ae06bed0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_6923a245dcfeed0ec95c7a7a04eb3f5a7c4b98e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_8851b4219cf86d0b3258077ad1b2c69aa940f58f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c8caa6638b4f6a619e81002961bf42f25acfefdc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.8.0_be94c82fe09be605468a7188e8f56a1043cf6739\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_3162ae0d8c4d4d015ace0b3a2b42f35f1a53a709\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_e055b5653fcbbd7a8fb66ad582a50a0bcbc755df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.8.0_570ef77c7ea46e40cdf60805b63f22a858869621\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_e0b79c57c1c48a23895f9e802113de8969d4b6fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.8.0_e4fbf3ca3d4eb07b3b75db31df710ea84cf34c0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\farre\Desktop\Foodle\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_85229fc8d82e36bddd9c92761055892d52f10215\classes.dex" />
+    </item>
+
+</items>
