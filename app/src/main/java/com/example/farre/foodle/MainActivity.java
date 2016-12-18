@@ -20,6 +20,8 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private EditText editTextPassword;
     private Button buttonSignup;
     private ImageView imageview2; //this
+    private DatabaseReference databaseReference;
 
 
     private TextView textViewSignin;
@@ -110,6 +113,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         //checking if success
                         if(task.isSuccessful()){
                             finish();
+                            saveUserInformationFirst();
                             startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
                         }else{
                             //display some message here
@@ -118,7 +122,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         progressDialog.dismiss();
                     }
                 });
+    }
 
+    private void saveUserInformationFirst() {
+        databaseReference = FirebaseDatabase.getInstance().getReference();
+
+        //Getting values from database
+        String name = "User Name";
+        String veganV = "false";
+        String coeliacV = "false";
+        String vegetarianV = "false";
+        String HighProteinV = "false";
+        String LowCarbV = "false";
+
+        User userInformation = new User(LowCarbV, coeliacV, HighProteinV, vegetarianV, name, veganV);
+        String user = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        databaseReference.child("user").child(user).setValue(userInformation);
     }
 
     @Override

@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="d4eec3577a42e1699b5a349435ad9a7a0f6cc2be">
+        sha1="941fc735d203cc00f2cd8b465f5d4d421b52005d">
         <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_40139a520f069efa4e16ec6ac43233d72522d635\classes.dex" />
     </item>
     <item
@@ -196,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="fd5c973d7d5a28d8418234b16699815c3ff7fd23">
+        sha1="8b7eda79fa84c148381c2364feaa61568b8d1c11">
         <dex dex="C:\Users\farre\Desktop\Foodle\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_16a47c378932824d0f7aa5279f8fca24d45f0342\classes.dex" />
     </item>
     <item

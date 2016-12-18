@@ -25,22 +25,17 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserListActivity extends AppCompatActivity {
-
-    ArrayList<Contact> contacts;
+public class UserListActivity extends AppCompatActivity implements View.OnClickListener {
 
     private static final String TAG = "RecipeBook";
     private DatabaseReference mRecipeReference;
     ValueEventListener mRecipeListener;
     RecipeAdapter adapter;
     private RecyclerView mRecipeRecycler;
+    private ImageButton Backbutton;
 
-
-    private ImageButton Back;
     String recipeKey;
-    ArrayList<Recipe> recipeMap = new ArrayList<Recipe>();
-    RecyclerView rvContacts;
-    private TextView test;
+    ArrayList<Recipe> recipeMap = new ArrayList<>();
     String name;
 
     @Override
@@ -49,6 +44,8 @@ public class UserListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_users);
 
         mRecipeRecycler = (RecyclerView) findViewById(R.id.rvRecipes);
+        Backbutton = (ImageButton) findViewById(R.id.Backbutton);
+        Backbutton.setOnClickListener(this);
 
         mRecipeReference = FirebaseDatabase.getInstance().getReference().child("likedrecipe");
         mRecipeRecycler.setLayoutManager(new LinearLayoutManager(this));
@@ -95,12 +92,20 @@ public class UserListActivity extends AppCompatActivity {
         //RecipeAdapter.cleanupListener();
     }
 
+    @Override
+    public void onClick(View v) {
+        if(v == Backbutton) {
+            startActivity(new Intent(this, ProfileActivity.class));
+
+        }
+    }
+
     public static class RecipeViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        public TextView nameTextView;
-        public Button messageButton;
+        TextView nameTextView;
+        Button messageButton;
         private String id;
 
-        public RecipeViewHolder(View itemView) {
+        RecipeViewHolder(View itemView) {
             super(itemView);
 
             nameTextView = (TextView) itemView.findViewById(R.id.contact_name);
@@ -119,14 +124,14 @@ public class UserListActivity extends AppCompatActivity {
 
     public class RecipeAdapter extends RecyclerView.Adapter<RecipeViewHolder> {
 
-        private List<Recipe> mRecipes = new ArrayList<Recipe>();
-        private List<String> mRecipeIds = new ArrayList<String>();
+        private List<Recipe> mRecipes = new ArrayList<>();
+        private List<String> mRecipeIds = new ArrayList<>();
 
         private Context mContext;
         private DatabaseReference mDatabaseReference;
         private ChildEventListener mChildEventListener;
 
-        public RecipeAdapter(Context context, DatabaseReference ref) {
+        RecipeAdapter(Context context, DatabaseReference ref) {
             mContext = context;
             mDatabaseReference = ref;
 
@@ -184,17 +189,13 @@ public class UserListActivity extends AppCompatActivity {
                 @Override
                 public void onChildMoved(DataSnapshot dataSnapshot, String previousChildName) {
                     Log.d(TAG, "onChildMoved:" + dataSnapshot.getKey());
-
-                    Recipe movedRecipe = dataSnapshot.getValue(Recipe.class);
-                    String recipeKey = dataSnapshot.getKey();
-
                     // ...
                 }
 
                 @Override
                 public void onCancelled(DatabaseError databaseError) {
                     Log.w(TAG, "postRecipes:onCancelled", databaseError.toException());
-                    Toast.makeText(mContext, "Failed to load recipes.",
+                    Toast.makeText(mContext, "",
                             Toast.LENGTH_SHORT).show();
                 }
             };
@@ -216,7 +217,6 @@ public class UserListActivity extends AppCompatActivity {
             Recipe recipe = mRecipes.get(position);
             holder.nameTextView.setText(recipe.Name);
             holder.messageButton.setText("View");
-            //holder.id = mRecipes.get(position).id;
             holder.id = mRecipeIds.get(position);
         }
 

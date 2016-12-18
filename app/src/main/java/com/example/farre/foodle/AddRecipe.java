@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -23,6 +24,7 @@ public class AddRecipe extends AppCompatActivity implements View.OnClickListener
     private EditText editTextDirections;
     private EditText editTextCategory;
     private EditText editImageURL;
+    private ImageButton backButton3;
 
     private Button buttonAddRecipe;
 
@@ -41,6 +43,8 @@ public class AddRecipe extends AppCompatActivity implements View.OnClickListener
         editImageURL = (EditText) findViewById(R.id.editImageURL);
         buttonAddRecipe = (Button) findViewById(R.id.buttonAddRecipe);
         buttonAddRecipe.setOnClickListener(this);
+        backButton3 = (ImageButton) findViewById(R.id.backButton3);
+        backButton3.setOnClickListener(this);
 
         myRef = FirebaseDatabase.getInstance().getReference();
 
@@ -72,6 +76,9 @@ public class AddRecipe extends AppCompatActivity implements View.OnClickListener
         if(view == buttonAddRecipe) {
             addRecipe();
             startActivity(new Intent(this, MainActivity.class));
+        }
+        if(view == backButton3) {
+            startActivity(new Intent(this, SettingsActivity.class));
         }
     }
 }

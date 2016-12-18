@@ -13,9 +13,9 @@
     tools:context="com.example.farre.foodle.AddRecipe">
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="?attr/actionModeCloseDrawable"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_profile"
         android:id="@+id/backButton3" />
 
     <LinearLayout

@@ -3,6 +3,7 @@ package com.example.farre.foodle;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
@@ -50,38 +51,71 @@ public class ViewRecipe extends AppCompatActivity implements View.OnClickListene
 
 
         String s = getIntent().getStringExtra("recipeId");
-        //nameView.setText(s);
+        String t = getIntent().getStringExtra("RECIPE_KEY");
+        if(s == null) {
+            FirebaseDatabase.getInstance().getReference().child("recipe").child(t)
+                    .addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            Recipe recipe = dataSnapshot.getValue(Recipe.class);
+
+                            nameView.setText(recipe.Name);
+                            ingredientsView.setText(recipe.Ingredients);
+                            caloriesView.setText(recipe.Calories);
+                            categoryView.setText(recipe.Category);
+                            directionsView.setText(recipe.Directions);
+
+                            String imgURL = recipe.Img;
+                            DisplayMetrics displaymetrics = new DisplayMetrics();
+                            getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
+                            int height = displaymetrics.heightPixels;
+                            int width = displaymetrics.widthPixels;
+                            recipeImageView.getLayoutParams().height = (height / 100) * 65;
 
 
-        DatabaseReference mRecipeReference = FirebaseDatabase.getInstance().getReference().child("recipe");
+                            Picasso.with(getApplicationContext()).load(imgURL)//download URL
+                                    .placeholder(R.drawable.thai_sweetfire_chicken)//use defaul image
+                                    .error(R.drawable.thai_sweetfire_chicken)//if failed
+                                    .into(recipeImageView);//imageview
+                        }
 
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
 
-        ValueEventListener recipeListener = new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                for (DataSnapshot recipeSnapshot: dataSnapshot.getChildren()) {
-                    Recipe recipe = recipeSnapshot.getValue(Recipe.class);
+                        }
+                    });
+        }
+        else {
+            FirebaseDatabase.getInstance().getReference().child("likedrecipe").child(s)
+                    .addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            Recipe recipe = dataSnapshot.getValue(Recipe.class);
 
-                    nameView.setText(recipe.Name);
-                    ingredientsView.setText(recipe.Ingredients);
-                    caloriesView.setText(recipe.Calories);
-                    categoryView.setText(recipe.Category);
-                    directionsView.setText(recipe.Directions);
-                    String imgURL = recipe.Img;
+                            nameView.setText(recipe.Name);
+                            ingredientsView.setText(recipe.Ingredients);
+                            caloriesView.setText(recipe.Calories);
+                            categoryView.setText(recipe.Category);
+                            directionsView.setText(recipe.Directions);
 
-                    Picasso.with(getApplicationContext()).load(imgURL)//download URL
-                            .placeholder(R.drawable.thai_sweetfire_chicken)//use defaul image
-                            .error(R.drawable.thai_sweetfire_chicken)//if failed
-                            .into(recipeImageView);//imageview
+                            String imgURL = recipe.Img;
+                            DisplayMetrics displaymetrics = new DisplayMetrics();
+                            getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
+                            int height = displaymetrics.heightPixels;
+                            recipeImageView.getLayoutParams().height = (height / 100) * 65;
 
-                }
-            }
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-                Log.w(TAG, "loadPost:onCancelled", databaseError.toException());
-            }
-        };
-        mRecipeReference.orderByKey().startAt(s).addValueEventListener(recipeListener);
+                            Picasso.with(getApplicationContext()).load(imgURL)//download URL
+                                    .placeholder(R.drawable.placeholder)//use defaul image
+                                    .error(R.drawable.placeholder)//if failed
+                                    .into(recipeImageView);//imageview
+                        }
+
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
+
+                        }
+                    });
+        }
 
     }
 

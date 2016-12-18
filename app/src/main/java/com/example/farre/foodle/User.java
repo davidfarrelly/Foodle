@@ -8,16 +8,20 @@ public class User {
     public String Name;
     public String Vegan;
     public String Coeliac;
-    public String Diabetic;
+    public String Vegetarian;
+    public String Protein;
+    public String Carbs;
 
     public User() {
         // empty default constructor, necessary for Firebase to be able to deserialize users
 
     }
-    public User(String coeliac, String diabetic, String name, String vegan) {
+    public User(String carbs, String coeliac, String protein, String vegetarian, String name, String vegan) {
         this.Name = name;
         this.Vegan = vegan;
         this.Coeliac = coeliac;
-        this.Diabetic = diabetic;
+        this.Vegetarian = vegetarian;
+        this.Carbs = carbs;
+        this.Protein = protein;
     }
 }
