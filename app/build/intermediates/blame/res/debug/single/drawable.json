@@ -8,6 +8,10 @@
         "source": "C:\\Users\\farre\\Desktop\\Foodle\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
+        "merged": "C:\\Users\\farre\\Desktop\\Foodle\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\placeholder.png",
+        "source": "C:\\Users\\farre\\Desktop\\Foodle\\app\\src\\main\\res\\drawable\\placeholder.png"
+    },
+    {
         "merged": "C:\\Users\\farre\\Desktop\\Foodle\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "C:\\Users\\farre\\Desktop\\Foodle\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
@@ -116,12 +120,12 @@
         "source": "C:\\Users\\farre\\Desktop\\Foodle\\app\\src\\main\\res\\drawable\\ic_profile.png"
     },
     {
-        "merged": "C:\\Users\\farre\\Desktop\\Foodle\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\farre\\Desktop\\Foodle\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
         "merged": "C:\\Users\\farre\\Desktop\\Foodle\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\foodle2.png",
         "source": "C:\\Users\\farre\\Desktop\\Foodle\\app\\src\\main\\res\\drawable\\foodle2.png"
+    },
+    {
+        "merged": "C:\\Users\\farre\\Desktop\\Foodle\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\farre\\Desktop\\Foodle\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "C:\\Users\\farre\\Desktop\\Foodle\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
@@ -130,6 +134,10 @@
     {
         "merged": "C:\\Users\\farre\\Desktop\\Foodle\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\foodle_small.png",
         "source": "C:\\Users\\farre\\Desktop\\Foodle\\app\\src\\main\\res\\drawable\\foodle_small.png"
+    },
+    {
+        "merged": "C:\\Users\\farre\\Desktop\\Foodle\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_book.png",
+        "source": "C:\\Users\\farre\\Desktop\\Foodle\\app\\src\\main\\res\\drawable\\ic_book.png"
     },
     {
         "merged": "C:\\Users\\farre\\Desktop\\Foodle\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
