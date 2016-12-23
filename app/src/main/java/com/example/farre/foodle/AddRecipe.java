@@ -51,7 +51,7 @@ public class AddRecipe extends AppCompatActivity implements View.OnClickListener
     }
 
     public void addRecipe() {
-        Map<String, String> recipe1 = new HashMap<String, String>();
+        Map<String, String> recipe_map = new HashMap<String, String>();
 
         String name = editTextName.getText().toString().trim();
         String calories = editTextCalories.getText().toString().trim();
@@ -60,15 +60,15 @@ public class AddRecipe extends AppCompatActivity implements View.OnClickListener
         String category = editTextCategory.getText().toString().trim();
         String URL = editImageURL.getText().toString().trim();
 
-        recipe1.put("Calories", calories);
-        recipe1.put("Category", category);
-        recipe1.put("Directions", directions);
-        recipe1.put("Ingredients", ingredients);
-        recipe1.put("Name", name);
-        recipe1.put("Img", URL);
+        recipe_map.put("Calories", calories);
+        recipe_map.put("Category", category);
+        recipe_map.put("Directions", directions);
+        recipe_map.put("Ingredients", ingredients);
+        recipe_map.put("Name", name);
+        recipe_map.put("Img", URL);
 
-        myRef2 = myRef.child("recipe");
-        myRef2.push().setValue(recipe1);
+        myRef = myRef.child("recipe");
+        myRef.push().setValue(recipe_map);
     }
 
     @Override
